@@ -6,8 +6,8 @@ namespace VowelCounter
     {
         static void Main(string[] args)
         {
-            VowelCountingLogicClass vowelCounting = new VowelCountingLogicClass();
-            vowelCounting.VowelCountingEngine();
+            VowelCounting vowelCounting = new VowelCounting();
+            vowelCounting.DisplayResults();
         }
     }
 }
